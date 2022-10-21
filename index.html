@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>   
+        <h1><u>HTML Interview Q&A (Day-3)</u></h1>
+    </center>
+<hr><hr>
+<h2>1.Write a code to insert an image ?</h2>
+<b>Ans:</b>&nbsp;&nbsp;&nbsp;&nbsp; 
+  <img width="300" src="image.png" alt="404 Error">
+    <img width="300" src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/seo-images/og/PB_1200x628.png" alt="404 Error">
+
+<h2>2.Create a form contain input fields like name age email and contact?</h2>
+<b>Ans:</b>&nbsp;&nbsp;&nbsp;&nbsp; 
+<form name="Register form" action="index2.html" method="get">
+<label for="name">Name:</label>
+<input placeholder="Name" type="text" name="name" id="name"><br><br>
+<label for="email">Email:</label>
+<input required placeholder="Email" type="email" name="email" id="email"><br><br>
+<label for="age">Age:</label>
+<input placeholder="Age" type="number" name="age" id="age"><br><br>
+<label for="contact">Contact:</label>
+<input placeholder="Contact"type="tel" name="contact" id="contact"><br><br>
+<input type="submit">
+
+</form>
+<h2>3.Create a table and explain how to acheive colspan?</h2>
+<table border="1">
+    <tr>
+        <th >Name</th>
+        <th colspan="3">Designation</th>
+    </tr>
+    <tr>
+        <td>Ainan</td>
+        <td>Front end developer</td>
+        <td>Back end developer</td>
+    </tr>
+    <tr>
+        <td>Salaha</td>
+        <td>Front end developer</td>
+        <td>Back end developer</td>
+    </tr>
+    <tr>
+        <th style=" background-color: aquamarine;="" colspan="3"> Fullstack</th>
+    </tr>
+</table>
+
+<h2>4.Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two ?</h2>
+<p><b>Radio Button</b></p>
+<input type="radio" value="MERN" name="course" id="course">
+<label for="course">MERN</label> <br>
+<input type="radio" value="MEAN" name="course" id="course">
+<label for="course">MEAN</label><br><br>
+
+<p><b>Checkbox Button</b></p>
+<input type="checkbox" value="HTML" name="html" id="html">
+<label for="html">HTML</label><br>
+<input type="checkbox" value="CSS" name="css" id="css">
+<label for="css">CSS</label><br>
+<input type="checkbox" value="React" name="react" id="react">
+<label for="react">REACT</label><br>
+<input type="checkbox" value="NODE" name="node" id="node">
+<label for="node">NODE</label><br><br>
+<center>
+<div> <b style="color:blue ;">Difference between Radio and Checkbox</b></div>
+<table border="1">
+    <tr>
+        <th ><b>Radio</b></th>
+        <th ><b>Checkbox</b></th>
+    </tr>
+    <tr>
+        <td>Its is used when only one option to be selected out of several available options.</td>
+        <td>Checkbox allow one or many options to be selected.</td>
+        
+    </tr>
+    <tr>
+        <td>Radio button is presented as small circle on the screen.</td>
+        <td>Checkbox is presented as small square box on the screen.</td>
+    </tr>
+    <tr>
+        <td>It is used when you want to limit the user's choice to just one option from the range provided.</td>
+        <td>It is used when you want to allow user to select multiple options.</td>
+    </tr>
+</table>
+
+</center>
+
+</body>
+</html>
